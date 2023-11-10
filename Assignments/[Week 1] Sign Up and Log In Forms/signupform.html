@@ -4,84 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up and Log In Forms</title>
+    <title>Sign Up</title>
 </head>
 
 <body>
-    <form action="action_page.html" method="post">
-
-        <h1>Register</h1>
-        <div>
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname" placeholder="First Name*" required>
-        </div>
-
-        <br>
-
-        <div>
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname" placeholder="Last Name*" required>
-        </div>
-
-        <br>
-
-        <div>
-            <label for="pass">Password:</label>
-            <input type="password" id="pass" name="pass" placeholder="Enter Your Password" maxlength="12" required>
-        </div>
-
-        <br>
-
-        <div>
-            <label for="pass">Confirm Password:</label>
-            <input type="password" id="pass" name="pass" placeholder="Enter Your Password" maxlength="12" required>
-        </div>
-
-        <br>
-
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com">
-        </div>
-
-        <br>
-
-        <div>
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" placeholder="(383)-123-456-789">
-        </div>
-
-        <br>
-
-        <div>
-            <label for="bdata">Birthday:</label>
-            <input type="date" id="bdate" name="bdate">
-        </div>
-
-        <br>
-
-        <div>
-            <label for="title">Gender:</label>
-
-            <label for="Mr.">Male</label>
-            <Input type="radio" name="title" value="Mr.">
-
-            <label for="Mrs.">Female</label>
-            <Input type="radio" name="title" value="Mrs.">
-        </div>
-
-        <br>
-
-        <button type="submit">Sign Up</button>
-
-        <br>
-
-        <br>
-        <div>
-            <input type="reset">
-        </div>
-
-
+    <h2>Register</h2>
+    <form>
+        <label for="name">First Name</label>
+        <input type="name" placeholder="First Name" id="name">
+    </form>
+    <br>
+    <form>
+        <label for="lastname">Last Name</label>
+        <input type="lastname" placeholder="Last Name" id="lastname">
+    </form>
+    <br>
+    <form>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Write your email" id="email">
+    </form>
+    <br>
+    <form>
+        <label for="password">Password</label>
+        <input type="name" placeholder="Enter your password" id="password">
+    </form>
+    <br>
+    <form>
+        <label for="password">Confirm your Password</label>
+        <input type="name" placeholder="Enter your password" id="password">
+    </form>
+    <br>
+    <form>
+        <label for="Birthday">Birthday</label>
+        <input type="date" id="Birthday" name="Birthday">
+    </form>
+    <form>
+        <p>Gender:</p>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="fmale" name="Gender" value="fmale">
+        <label for="fmale">Female</label>
+    </form>
+    <br>
+    <form>
+        <button type="Submit">Sign Up</button>
+    </form>
+    <br>
+    <form>
+        <input type="checkbox" id="agree" name="agreement" value="yes">
+        <label for="agree">Pajtohem me kushtet dhe termat.</label>
+    </form>
 </body>
 
 </html>
